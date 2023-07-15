@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #d0ebff;
+  color: rgb(34, 34, 97);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.eduction {
+  display: flex;
+}
+
+.educationdata {
+  margin-top: 10%;
+}
+
+.educationdata h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.educationdata p {
+  font-size: 30px;
+}
+
+.logo1 {
+  max-width: 85%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+
+.text ul {
+  list-style: none;
+  margin-left: 2%;
+}
+.head1 p {
+  background-color: #85b7d5;
+}
+
+.description {
+  border: 2px solid black;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.219);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.Certification {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.nptel {
+  border: 2px solid black;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.219);
+}
+.textd {
+  font-size: 30px;
+  color: white;
+  background-color: rgb(34, 34, 97);
+  text-align: center;
+}

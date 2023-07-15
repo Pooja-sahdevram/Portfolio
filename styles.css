@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #edf9fe;
+  color: rgb(34, 34, 97);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.body {
+  margin-top: 10%;
+}
+.portfolio {
+  width: 98%;
+}
+.header {
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  position: relative;
+  font-size: 30px;
+  color: rgb(4, 4, 81);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  -webkit-user-select: none;
+  margin-left: 3%;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 25px;
+  color: rgb(34, 34, 97);
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #84c3de;
+  transition: transform 0.3s ease;
+}
+.containt {
+  margin-top: 5%;
+  display: flex;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+.about h1 {
+  font-size: 80px;
+}
+.about p {
+  font-size: 45px;
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 0.8;
+  padding: 10px;
+}
+
+.social-logo {
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.social-logo a {
+  margin-right: 2%;
+}
+.Share {
+  margin-top: 10%;
+  align-items: center;
+}
+.Share a {
+  text-decoration: none;
+  font-size: 35px;
+  background-color: rgb(34, 34, 97);
+  border: 2px solid black;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 5;
+  color: white;
+  border-radius: 25px;
+}
+.Share a:hover {
+  background-color: #edf9fe;
+  color: rgb(34, 34, 97);
+}
+
+.work {
+  margin-top: 5%;
+  font-size: 60px;
+  font-weight: 10;
+  margin-bottom: 5%;
+}
+
+.mernaboout {
+  font-size: 30px;
+}
+
+.mern {
+  margin-top: 5%;
+  display: flex;
+}
+
+.theory ul {
+  list-style-type: none;
+  line-height: 1.3;
+}
+.theory li {
+  color: #7f8daa;
+}
+.theory {
+  font-size: 32px;
+  text-decoration: none;
+}
+.theory1 {
+  font-size: 32px;
+  text-decoration: none;
+  width: 600px;
+}
+.theory1 ul {
+  list-style-type: none;
+  line-height: 1.3;
+}
+.theory1 li {
+  color: #7f8daa;
+}
+.work1 {
+  margin-top: 5%;
+  font-size: 60px;
+  font-weight: 10;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
